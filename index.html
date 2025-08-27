@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kushagr Singh - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Particle Background -->
+    <div id="particles-bg" class="particles-bg"></div>
+
+    <!-- Top Navigation -->
+    <nav class="top-nav" id="topNav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">Kushagr Singh</span>
+            </div>
+            
+            <!-- Desktop Navigation Links -->
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active" data-section="home">
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="nav-link" data-section="about">
+                    <span>About</span>
+                </a>
+                <a href="#skills" class="nav-link" data-section="skills">
+                    <span>Skills</span>
+                </a>
+                <a href="#experience" class="nav-link" data-section="experience">
+                    <span>Experience</span>
+                </a>
+                <a href="#projects" class="nav-link" data-section="projects">
+                    <span>Projects</span>
+                </a>
+                <a href="#contact" class="nav-link" data-section="contact">
+                    <span>Contact</span>
+                </a>
+            </div>
+
+            <div class="nav-actions">
+                <div class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-nav-menu" id="mobileNavMenu">
+            <div class="mobile-nav-links">
+                <a href="#home" class="mobile-nav-link active" data-section="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="mobile-nav-link" data-section="about">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a>
+                <a href="#skills" class="mobile-nav-link" data-section="skills">
+                    <i class="fas fa-code"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#experience" class="mobile-nav-link" data-section="experience">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Experience</span>
+                </a>
+                <a href="#projects" class="mobile-nav-link" data-section="projects">
+                    <i class="fas fa-folder"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#contact" class="mobile-nav-link" data-section="contact">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-name">
+                        <span class="greeting">Hi, I'm</span>
+                        <span class="name-text" id="nameText">Kushagr Singh</span>
+                    </h1>
+                    <div class="hero-title">
+                        <span class="title-prefix">I'm a</span>
+                        <span class="rotating-title" id="rotatingTitle">Full Stack Developer</span>
+                    </div>
+                    <p class="hero-description">
+                        Passionate developer with a love for creating beautiful, functional web experiences. 
+                        I combine technical expertise with creative design to build applications that users love.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn--primary neon-glow">View My Work</a>
+                        <a href="#contact" class="btn btn--outline">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="50">0</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="25">0</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-intro">
+                            I'm a passionate Full Stack Developer based in San Francisco, specializing in creating 
+                            digital experiences that combine beautiful design with powerful functionality.
+                        </p>
+                        <p>
+                            With 5 years of experience in web development, I've had the privilege of working with 
+                            amazing teams and clients to bring innovative ideas to life. My expertise spans from 
+                            frontend technologies like React and Vue.js to backend systems using Node.js and Python.
+                        </p>
+                        <p>
+                            When I'm not coding, you'll find me exploring new design trends, contributing to open 
+                            source projects, or enjoying the beautiful outdoors of California.
+                        </p>
+                        <div class="about-interests">
+                            <h4>Interests & Hobbies</h4>
+                            <div class="interests-grid">
+                                <div class="interest-item">
+                                    <i class="fas fa-camera"></i>
+                                    <span>Sports</span>
+                                </div>
+                                <div class="interest-item">
+                                    <i class="fas fa-mountain"></i>
+                                    <span></span>
+                                </div>
+                                <div class="interest-item">
+                                    <i class="fas fa-music"></i>
+                                    <span>Music</span>
+                                </div>
+                                <div class="interest-item">
+                                    <i class="fas fa-gamepad"></i>
+                                    <span>Gaming</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="profile-card glass">
+                            <div class="profile-avatar">
+                                <div class="avatar-placeholder">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <h3>Kushagr Singh</h3>
+                            <p>Full Stack Developer</p>
+                            <div class="profile-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>San Francisco, CA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category" data-category="frontend">
+                        <div class="skill-header">
+                            <i class="fas fa-paint-brush"></i>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-badge">React</div>
+                            <div class="skill-badge">Vue.js</div>
+                            <div class="skill-badge">TypeScript</div>
+                            <div class="skill-badge">HTML5</div>
+                            <div class="skill-badge">CSS3</div>
+                            <div class="skill-badge">Sass</div>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-category="backend">
+                        <div class="skill-header">
+                            <i class="fas fa-server"></i>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-badge">Node.js</div>
+                            <div class="skill-badge">Python</div>
+                            <div class="skill-badge">Express</div>
+                            <div class="skill-badge">FastAPI</div>
+                            <div class="skill-badge">PostgreSQL</div>
+                            <div class="skill-badge">MongoDB</div>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-category="tools">
+                        <div class="skill-header">
+                            <i class="fas fa-tools"></i>
+                            <h3>Tools</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-badge">Git</div>
+                            <div class="skill-badge">Docker</div>
+                            <div class="skill-badge">AWS</div>
+                            <div class="skill-badge">Figma</div>
+                            <div class="skill-badge">Webpack</div>
+                            <div class="skill-badge">Jest</div>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-category="design">
+                        <div class="skill-header">
+                            <i class="fas fa-palette"></i>
+                            <h3>Design</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-badge">UI/UX</div>
+                            <div class="skill-badge">Photoshop</div>
+                            <div class="skill-badge">Illustrator</div>
+                            <div class="skill-badge">Prototyping</div>
+                            <div class="skill-badge">Wireframing</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card glass">
+                            <div class="timeline-header">
+                                <h3>Senior Full Stack Developer</h3>
+                                <span class="company">TechFlow Solutions</span>
+                                <span class="duration">2023 - Present</span>
+                            </div>
+                            <p class="timeline-description">
+                                Leading development of scalable web applications and mentoring junior developers.
+                            </p>
+                            <div class="timeline-achievements">
+                                <ul>
+                                    <li>Architected microservices handling 1M+ daily requests</li>
+                                    <li>Reduced application load time by 60% through optimization</li>
+                                    <li>Led team of 5 developers on major product launches</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-tech">
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">AWS</span>
+                                <span class="tech-badge">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card glass">
+                            <div class="timeline-header">
+                                <h3>Frontend Developer & Designer</h3>
+                                <span class="company">Creative Studios Inc.</span>
+                                <span class="duration">2021 - 2023</span>
+                            </div>
+                            <p class="timeline-description">
+                                Developed interactive web experiences and collaborated closely with design teams.
+                            </p>
+                            <div class="timeline-achievements">
+                                <ul>
+                                    <li>Created award-winning interactive websites for major brands</li>
+                                    <li>Improved user engagement by 80% through UX improvements</li>
+                                    <li>Built reusable component library used across 10+ projects</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-tech">
+                                <span class="tech-badge">Vue.js</span>
+                                <span class="tech-badge">Three.js</span>
+                                <span class="tech-badge">GSAP</span>
+                                <span class="tech-badge">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card glass">
+                            <div class="timeline-header">
+                                <h3>Junior Developer</h3>
+                                <span class="company">StartupLab</span>
+                                <span class="duration">2020 - 2021</span>
+                            </div>
+                            <p class="timeline-description">
+                                Contributed to various projects while learning and growing technical skills.
+                            </p>
+                            <div class="timeline-achievements">
+                                <ul>
+                                    <li>Developed responsive websites for startup clients</li>
+                                    <li>Implemented automated testing reducing bugs by 40%</li>
+                                    <li>Collaborated on agile development processes</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-tech">
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">HTML/CSS</span>
+                                <span class="tech-badge">Git</span>
+                                <span class="tech-badge">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                </div>
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's work together!</h3>
+                        <p>
+                            I'm always open to discussing new opportunities, creative projects, 
+                            or just having a friendly chat about technology and design.
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>alex@example.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>San Francisco, CA</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/alexjohnson" target="_blank" class="social-link" data-platform="github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/alexjohnson" target="_blank" class="social-link" data-platform="linkedin">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com/alexjohnson" target="_blank" class="social-link" data-platform="twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://dribbble.com/alexjohnson" target="_blank" class="social-link" data-platform="dribbble">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                            <a href="https://behance.net/alexjohnson" target="_blank" class="social-link" data-platform="behance">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" class="form-control" required>
+                                <label for="name" class="form-label">Your Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" class="form-control" required>
+                                <label for="email" class="form-label">Your Email</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" class="form-control" required>
+                                <label for="subject" class="form-label">Subject</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                                <label for="message" class="form-label">Your Message</label>
+                            </div>
+                            <button type="submit" class="btn btn--primary neon-glow">Send Message</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal hidden">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content glass">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- Modal content will be dynamically loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
